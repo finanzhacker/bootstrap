@@ -1,8 +1,107 @@
+body {
+  padding-top: 50px;
+}
+
 .blog-header, .blog-post, .blog-pagination {
   margin-bottom: 2rem;
+}
+
+.blog-footer {
+  color: #32CD32;
+}
+
+.blog-title {
+  text-align: center;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-variant: black;
+  font-weight: bold;
+}
+
+.blog-title h1 {
+  font-size: 64px;
+}
+
+.blog-title h3 {
+  font-size: 24px;
+}
+
+.blog-post-title {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+}
+
+.blog-post p {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+}
+
+h4 {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
 }
 
 /* Make sure the image size is reasonable. */
 .blog-post img {
   max-width: 100%;
+}
+
+.header {
+  width: 100%;
+}
+
+.btn-outline-primary {
+  color: #FFFFFF;
+  background-color: transparent;
+  background-image: none;
+  border-color: #32CD32;
+}
+
+.btn-outline-primary:hover {
+  color: #FFFFFF;
+  background-color: #32CD32;
+  background-image: none;
+  border-color: #32CD32;
+}
+
+.btn-primary {
+  color: #FFFFFF;
+  background-color: #32CD32;
+  background-image: none;
+  border-color: #32CD32;
+}
+
+.btn-primary:hover {
+  color: #FFFFFF;
+  background-color: #0062cc;
+  background-image: none;
+  border-color: #0062cc;
+}
+
+.jumbotron {
+    border-radius: 0 !important;
+}
+
+.badge{
+  padding: 3px 4px 3px 4px;
+  font-size: 12.025px;
+  font-weight: bold;
+  white-space: nowrap;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.badge-primary[href] {
+  color: #ffffff;
+  background-color: #32CD32;
+}
+
+.badge-primary[href]:hover {
+  background-color: #0062cc;
+  text-decoration: none;
+  cursor: pointer;
 }

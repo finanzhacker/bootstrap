@@ -1,0 +1,6 @@
+{{ if isset .Site.Params "welcome" }}
+<section>
+    <h4>{{ i18n "welcome" }}</h4>
+    <p>{{ $.Site.Params.welcome }}</p>
+</section>
+{{ end }}

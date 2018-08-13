@@ -7,7 +7,8 @@
         {{ partial "post-tags" . }}
         {{ partial "post-categories" . }}
     </header>
-    {{ .Summary }}
+    <p></p>
+    <p>{{ .Summary }}</p>
     <p></p>
     <a href="{{ .RelPermalink }}">{{ i18n "readMore" }}</a>
 </article>

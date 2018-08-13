@@ -7,7 +7,7 @@
     {{ partial "post-date" . }}
     {{ partial "post-tags" . }}
     {{ partial "post-categories" . }}
-    <hr>
+    <p></p>
 </header>
 <article class="blog-post">
     {{ .Content }}
@@ -22,9 +22,10 @@
         {{ end }}
       </ul>
     {{ end }}
-
+    <p></p>
+    {{ partial "post-sharing" . }}
+    <br>
     {{ partial "related" . }}
-
 </article>
 
 {{ end }}

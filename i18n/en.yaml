@@ -1,3 +1,6 @@
+- id: welcome
+  translation: "welcome"
+
 - id: by
   translation: "by"
 
@@ -24,6 +27,9 @@
 
 - id: language
   translation: "Language"
+
+- id: share
+  translation: "Share"
 
 - id: thanks
   translation: "Thanks"
